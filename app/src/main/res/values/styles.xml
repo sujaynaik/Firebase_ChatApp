@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Edittext -->
+    <style name="normal_edittext_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/gray_d</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@drawable/post_background</item>
+        <item name="android:padding">9dp</item>
+    </style>
+
+    <style name="core_edittext_style" parent="normal_edittext_style">
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">@null</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:inputType">textCapSentences</item>
+    </style>
+
+</resources>
